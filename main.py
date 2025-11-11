@@ -24,6 +24,8 @@ def remove_duplicates_from_list(items):
 if __name__ == "__main__":
     filename = DEFAULT_FILENAME
     remove_duplicates = DEFAULT_DUPLICATES
+    
+    print("Modificacion para el ejercicio 1.")
     if len(sys.argv) == 3:
         filename = sys.argv[1]
         remove_duplicates = sys.argv[2].lower() == "yes"
